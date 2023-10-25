@@ -40,7 +40,7 @@
         <version>${jib-maven-plugin.version}</version>
         <configuration>
           <to>
-            <image>https://hub.docker.com/repository/docker/jdezotel/jib</image>
+            <image>docker.io/jdezotel/jib</image>
           </to>
         </configuration>
         <executions>
