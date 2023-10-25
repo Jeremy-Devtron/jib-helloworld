@@ -40,7 +40,7 @@
         <version>${jib-maven-plugin.version}</version>
         <configuration>
           <to>
-            <image>docker.io/jdezotel/jib</image>
+            <image>docker.io/jeremydevtron/jib-demo</image>
           </to>
         </configuration>
         <executions>
