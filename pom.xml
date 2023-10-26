@@ -41,6 +41,10 @@
         <configuration>
           <to>
             <image>docker.io/jeremydevtron/jib-demo</image>
+            <auth>
+              <username>${env.REGISTRY_USERNAME}</username>
+              <password>${env.REGISTRY_PASSWORD}</password>
+            </auth>
           </to>
         </configuration>
         <executions>
