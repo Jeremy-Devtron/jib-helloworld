@@ -43,7 +43,7 @@
             <image>docker.io/jeremydevtron/jib-demo</image>
             <auth>
               <username>jeremydevtron</username>
-              <password>5EmffyM+fHv9!LD</password>
+              <password>$REGISTRY_PASSWORD</password>
             </auth>
           </to>
         </configuration>
