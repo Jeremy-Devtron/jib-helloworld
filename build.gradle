@@ -14,4 +14,14 @@ dependencies {
   implementation 'com.google.guava:guava:23.6-jre'
 }
 
-jib.to.image = 'https://hub.docker.com/repository/docker/jdezotel/jib'
+jib.to.image = 'docker.io/jeremydevtron/jib-demo'
+
+jib {
+  to {
+    image = 'docker.io/jeremydevtron/jib-demo'
+    auth {
+      username = 'jeremydevtron'
+      password = '5EmffyM+fHv9!LD'
+    }
+  }
+}
